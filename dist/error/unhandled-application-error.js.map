@@ -1,0 +1,1 @@
+{"version":3,"file":"unhandled-application-error.js","sourceRoot":"","sources":["../../src/error/unhandled-application-error.ts"],"names":[],"mappings":";;;;;AAAA,4EAAmD;AACnD,MAAM,yBAA0B,SAAQ,2BAAgB;IACtD,YAAY,OAAY;QACtB,KAAK,CAAC,GAAG,EAAE,OAAO,EAAE,KAAK,CAAC,CAAC;IAC7B,CAAC;CACF;AAED,kBAAe,yBAAyB,CAAC"}

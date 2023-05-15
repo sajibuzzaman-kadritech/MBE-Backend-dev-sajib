@@ -1,0 +1,24 @@
+{
+	"database": {
+		"platform": {
+			"connection-string": "mongodb+srv://dev:Kadritech2020@mbe.jfaic2j.mongodb.net/?retryWrites=true&w=majority",
+			"db-name": "MBE"
+		},
+		"fetch-size": "200",
+		"query-max-ms": 60000
+	},
+	"server": {
+		"host": "http://localhost",
+		"port": 4200
+	},
+	"cors": {
+		"origin": "*"
+	},
+	"gcp": {
+		"region": "us-east1",
+		"projectId": "mbe-e-commerce",
+		"bucket": "mbestbucket",
+		"email": "1063762662049-compute@developer.gserviceaccount.com",
+		"private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCsmobf7bDvXn8I\nb20Iwoah+WVNkng/TXRgSAvqO6AUb1nQ3178fSOGshB+CPH0cGy2ioI2kNLpIu89\n2xUQH47aKo0vVhesRYvsJVMAiX7OV4LObUNzFKADJAP20hASXmJCz4HwUjhX/ht0\nU+esWtFr0/njiKWuURtTmVwx45ZOeqJIPLwtUtJ+YoVicoDjLipe33R4jWvDkxoc\niMUw1qfzepq691kGPo1EoLvJQ0bu6+jb6yAoSY/UpV8uAWdDVmvceC7BxVyX56np\nuUb4/c3/78RqN5tcuuL4+2pIQ3lItPVAQGbMgCjn1Y+qRgR0mgJ/69NBZgq5J9fT\nWiVMUwiRAgMBAAECggEABDExnu03O60cIUCRkaGl4ve7d+WbkZAISFFfprYBhpWI\nxSuzsya37uzSvTjq5YC4hzt4e6pLURnF3Ub9rTlS/yYC7VgmNYsv4ZGrgSsVvx29\ngdWCCqDA3SqqBPvno4aS1OQU2BkrIKn9kTb7fMJs7TVGD7pxKblzFDX4mQaZzzid\nhoGBNXGXajy/3vrlzoe5fvm21zj4uotkjEocZSLrRUZpTQon7U3TdYMof4k62+xH\noeHs3pvGbKOcUMNwuzDtI3BgBIUipLqSpzfgQ2D2objAl5fLCpIJ2PLfYGnhod5q\nLClCKHpDpVdf1KF82/nrkWrEAdYKTr371r/GqvcoAQKBgQDolWaF0foubcPlLK/y\nEYtX8ehkESTpIaBiz8Q8w9ri2E1v90F4ULpmjXzz/cp8byV23TInq8Urwt8in9OB\nbNJOPX50jxqocKuV2VaLdOAUtKsaDB03fT5PBwbWpCp7/LSxOa/3C4ctoWXjG4sN\ndNq5j0RQpBgJrtFRYvGRgIJGAQKBgQC9+zSBEgABp6buaqEuDS2SvssbWbpMwJEJ\nnXp7R0I6ZmAEX9eoQ7BWRDVZb0esrlAbM5X9bSzGG9IQlr4VBSvjV5CsLrOvEZvK\ncBMLaEGWSKxj3mxPoWTJ0zOcFCd06eM6ub03YqigoYCnc0xGkzkQ1jmD4n5uR0kf\ngthd9b1ikQKBgCvzD0x6QSxE0Z+csiKr7gjQTXmbQ75J/GSvngVdfR8ggIGH13dE\nyfRXCCWS75BT8GBlq/STIM8EI+YHDZCHX7YpKJwd7oulvsayKwhvLWi8OxjQ8TRr\nFjsYuNIWc3C6b+qNXBLyuriEpxwjOENysWIfEGmsmF48CpG2gK9d+UABAoGAXSVB\nBNdScX1FdzeIdw+2/G/XHT3M/bycX956It85NXDkOsDS94jYeDNRBNxug9ejJvMP\n4wUYIrmZMND3uU6jyf8wy3rKVleHzqVMcRdYsNpIy15ONGypAdsvPqMTBVt3MV/H\nydPxYXBNp8v75c5g+ERQRr1Rx7fjvjNk6gyGIkECgYEAmTbGb0QHiUtAY0InXwGI\nUBi+IV49bha7chf2gxcBO/6ufzsREzgBBNIcKleopMG8zkA9jh65/urF9TCQV65Z\nuUU97hgA2o7tMQzeNnkAzwgDMN/ih64Whc3UKiIR68zARc3Y4a9+a5IvCpSTelk+\n+UTa3jlvGVplBJKXKy9sqsk=\n-----END PRIVATE KEY-----\n"
+	}
+}

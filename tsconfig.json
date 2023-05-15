@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+        // "strict": true /* Enable all strict type-checking options. */,
+		"module": "commonjs",
+		"esModuleInterop": true,
+		"target": "es6",
+		"noImplicitAny": true,
+		"moduleResolution": "node",
+		"sourceMap": true,
+		"outDir": "./dist",
+		"rootDir": "./src",
+		"baseUrl": ".",
+		/* Advanced Options */
+		"skipLibCheck": true /* Skip type checking of declaration files. */,
+		"forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
+	},
+	"include": [
+		"src/**/*",
+		"config/**/*",
+		"tryandcarry-api/**/*",
+		"template.html"
+	],
+}

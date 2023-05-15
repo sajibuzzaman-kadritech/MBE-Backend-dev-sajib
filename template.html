@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <mate charest="utf-8" />
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+ <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<title>Payment invoice</title>
+  </head>
+  <body>
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col">   
+                    {{#each data}}
+                        <h1 style="font-size:16px">Shipping address:</h1>
+                        <h1 style="font-size:11px">{{this.name}}</h1>
+                        <h1 style="font-size:11px">{{this.addressLine1}}</h1>
+                        <h1 style="font-size:11px">{{this.addressLine2}}</h1>
+                        <h1 style="font-size:11px">{{this.city}}, {{this.state}}, {{this.country}} - {{this.pincode}}</h1>
+                        <h1 style="font-size:11px">Ph: {{this.phoneno}}</h1>
+                        <h1 style="font-size:11px">Email: {{this.email}}</h1>
+                        <h1 style="font-size:11px"> </h1>
+                        
+                        <h1 style="font-size:16px">Sold by:</h1>
+                        <h1 style="font-size:11px">{{this.sname}}</h1>
+                        <h1 style="font-size:11px">{{this.saddressLine2}}</h1>
+                        <h1 style="font-size:11px">{{this.city}}, {{this.state}}, {{this.country}} - {{this.pincode}}</h1>
+                        <h1 style="font-size:11px">Ph: {{this.sphoneno}}</h1>
+                        <h1 style="font-size:11px">Email: {{this.semail}}</h1>
+                        <h1 style="font-size:11px">GSTIN No.: {{this.sellergst}}</h1>
+               
+               
+                        <h1 style="font-size:16px">Invoice details:</h1>
+                        <h1 style="font-size:11px">Invoice number: {{this.invoice}}</h1>
+                        <h1 style="font-size:11px">Invoice date: {{this.invoicedate}}</h1>
+                        <h1 style="font-size:11px">Shipping order number: {{this.sorder}}</h1>
+                        <h1 style="font-size:11px">Order date: {{this.orderdate}}</h1>
+                        <h1 style="font-size:11px">Payment order number: {{this.order_id}}</h1>
+                        <h1 style="font-size:11px">Payment method: Prepaid></h1>
+                        <h1 style="font-size:11px">Bank Reference No. {{this.bank_reference}}</h1>
+                </div>
+                <div class="col">
+                    <hr/>
+                    <h1 style="font-size:13px">Sno.<span style="font-size:13px;margin-left:70px;margin-top:-10px">Product name<span style="font-size:13px;margin-left:50px;margin-top:-20px">Quantity<span style="font-size:13px;margin-left:50px;margin-top:-20px">Unit price<span style="font-size:13px;margin-left:50px;margin-top:-20px">Taxable value<span style="font-size:13px;margin-left:50px;margin-top:-20px">CGST<span style="font-size:13px;margin-left:50px;margin-top:-20px">SGST<span style="font-size:13px;margin-left:50px;margin-top:-20px">Total</span></span></span></span></span></span></span></h1>
+                    <hr/>
+                    <h1 style="font-size:15px">1. <span style="font-size:13px;margin-left:90px;margin-top:-10px">{{this.item_name}}<span style="font-size:13px;margin-left:90px;margin-top:-20px">1<span style="font-size:13px;margin-left:80px;margin-top:-20px">{{this.item_price}}<span style="font-size:13px;margin-left:80px;margin-top:-20px">{{this.item_price}}<span style="font-size:13px;margin-left:120px;margin-top:-20px">{{this.cgst}}<span style="font-size:13px;margin-left:60px;margin-top:-20px">{{this.sgst}}<span style="font-size:11px;margin-left:10px;margin-top:-20px;">{{this.payment_currency}} {{this.payment_amount}}</span></span></span></span></span></span></span></h1>
+                    <hr/>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+  </body>
+</html>
