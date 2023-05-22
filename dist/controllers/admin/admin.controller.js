@@ -23,7 +23,7 @@ class AdminController {
         this.path = '/admin';
         this.router = express_1.default.Router();
         this.getRoot = (req, res, next) => __awaiter(this, void 0, void 0, function* () {
-            res.send('Admin API page');
+            res.send('Admin API page---new');
         });
         this.bannerController = new homepageBanner_controller_1.BannerAdmin();
         this.itemsController = new authorize_admin_controller_1.AdminItems();

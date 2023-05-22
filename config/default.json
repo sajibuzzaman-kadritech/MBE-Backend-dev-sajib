@@ -1,8 +1,8 @@
 {
   "database": {
     "platform": {
-      "connection-string": "mongodb+srv://tareqaziz0065:6Hf6Qheh41JFvBSz@cluster0.wj9ob.mongodb.net/",
-      "db-name": "TryandCarry"
+      "connection-string": "mongodb+srv://dev:Kadritech2020@mbe.jfaic2j.mongodb.net/",
+      "db-name": "MBE"
     },
     "fetch-size": "200",
     "query-max-ms": 60000

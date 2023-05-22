@@ -45,6 +45,6 @@ export class AdminController implements IController {
     this.router.put(`${this.path}/bnr/update/:id`, this.bannerController.updateBanner);
   }
   private readonly getRoot = async (req: express.Request, res: express.Response, next: express.NextFunction) => {
-    res.send('Admin API page');
+    res.send('Admin API page---new');
   }
 }

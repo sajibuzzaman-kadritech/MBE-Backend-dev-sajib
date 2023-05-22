@@ -97,7 +97,7 @@ class App {
                 config_1.default.get('database.platform.db-name');
             const connectWithRetry = () => {
                 mongoose_1.default
-                    .connect("mongodb+srv://dev:Kadritech2020@mbe.jfaic2j.mongodb.net/?retryWrites=true&w=majority", options)
+                    .connect(dbConnectionString, options)
                     .then(() => {
                     console.log('Database connection successful');
                 })
